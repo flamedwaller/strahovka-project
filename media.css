@@ -1,0 +1,751 @@
+@media screen and (max-width: 1200px) {
+    .nav {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        width: 100%;
+    }
+
+    .header-body {
+        width: 100%;
+        gap: 0;
+    }
+    .burger-menu {
+        background-color: #000000;
+        padding: 0 13px;
+        border: 1px solid #000000;
+        border-radius: 42px;
+        display: flex;
+        align-items: center;
+        height: 45px;
+    }
+    
+    .menu-overlay {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(180, 180, 180, 0.8);
+        transition: left 0.3s ease;
+        overflow-y: auto;
+        z-index: 1;
+    }
+    .menu-overlay-head {
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 40px 26px 17px;
+        align-items: center;
+    }
+    .menu-overlay:target {
+        display: unset;
+        left: 0;
+    }
+    .close-btn {
+        height: 20px;
+    }
+    .header-burger-menu {
+        display: flex;
+        flex-direction: column;
+        
+        gap: 32px;
+    }
+    .header-burger-menu-item {
+        display: flex;
+        font-family: "SF-Pro-Display Regular";
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 400;
+        align-items: center;
+        color: #000000;
+        gap: 59px;
+        white-space: nowrap;
+        text-decoration: none;
+    }
+
+    .nav-help {
+        font-family: "SF-Pro-Display Regular";
+        font-size: 18px;
+        border: none;
+        appearance: none;
+        max-width: 100px;
+        background: none ;
+        
+    }
+    .nav-city {
+        font-family: "SF-Pro-Display Regular";
+        font-size: 18px;
+        border: none;
+        max-width: 170px;
+        appearance: none;
+       background-color: transparent;
+        
+       
+    }
+
+
+    .header-burger-menu-stack {
+        padding: 24px 20px 0 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80%;
+    }
+    .burger-outline {
+        background-color: #fff;
+    }
+
+    .insurance-program-body {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .clear {
+      padding: 20px 40px;
+     
+    }
+
+    .submit {
+      padding: 20px 40px;
+    }
+
+    .footer-body {
+      padding: 84px 10px 0 10px;
+    }
+
+    .footer-body-links {
+      gap: 70px;
+    }
+
+    .footer-copyright p {
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .menu-overlay-head {
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 177px 26px 17px;
+        align-items: center;
+    }
+
+    .close-btn {
+        padding-left: 30px;
+    }
+
+    .insurance-opportunities-stack {
+        flex-direction: column;
+    }
+
+    .condition-header {
+        line-height: 48px;
+        font-weight: 400;
+        font-size: 36px;
+    }
+
+
+    .doctors-description h2 {
+        line-height: 64px;
+        font-size: 48px;
+        font-weight: 400;
+    }
+
+    .doctors-description p {
+        line-height: 22px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .condition-body {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .doctors-image {
+        align-self: center;
+        padding-top: 30px;
+        justify-self: center;
+    }
+
+    .doctors-description {
+        align-self: center;
+        justify-self: center;
+        gap: 10px;
+      }
+
+      .icon-description h2 {
+        line-height: 35px;
+        font-size: 30px;
+        font-weight: 400;
+      }
+
+      .condition-app p {
+        line-height: 29px;
+        font-size: 18px;
+        font-weight: 400;
+      }
+
+      .bestdoctor {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .total-description h2 {
+        line-height: 64px;
+        font-size: 48px;
+        font-weight: 400;
+      }
+      
+      .total-description{ 
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .services-opportunities-stack {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .services-opportunities-item-arrows {
+        display: none;
+      }
+
+      .services-opportunities-item-content {
+        max-width: fit-content;
+      }
+
+      .case-items {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .case-header h2 {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 38px;
+        text-align: center;
+      }
+
+      .search-girl {
+        max-width: 500px;
+        max-height: 400px;
+      }
+
+      .details-body-content-input {
+        background-image: none ;
+        padding: 0;
+      }
+
+      .details-body {
+        gap: 30px;
+        padding: 20px;
+      }
+
+      .details-body-content-input-buttons {
+        gap: 20px;
+      }
+
+      .details-body-content {
+ 
+        gap: 50px;
+      }
+
+      .clear {
+        padding: 20px 20px;
+       
+      }
+  
+      .submit {
+        padding: 20px 20px;
+      }
+
+      .searchglass {
+        display: flex;
+        justify-content: end;
+      }
+
+      .footer-body {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .footer-body-links {
+        gap: 175px;
+      }
+  }
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .menu-overlay-head {
+        display: flex;
+        justify-content: flex-start;
+        padding: 12px 57px 26px 17px;
+        align-items: center;
+    }
+    .close-btn {
+        padding-left: 30px;
+    }
+
+    .insurance-program-body {
+        align-items: center;
+        justify-content: center;
+        padding: 30px 17px 30px 17px;
+    }
+
+    .Artboard1 {
+        align-self: unset;
+        max-width: 200px;
+    }
+
+    .Artboard {
+        max-width: 200px;
+    }
+
+    .insurance-program-description-heading-title {
+        font-size: 24px;
+        line-height: 26px;
+    }
+    
+    .insurance-program-description {
+        gap: 40px;
+    }
+    
+    .insurance-title {
+        font-size: 32px;
+        line-height: 34px;
+    }
+
+    .insurance-opportunities-stack {
+        gap: 10px;
+    }
+    
+    .conditions {
+        display: flex;
+        justify-content: center;
+        margin-top: 65px;
+    }
+
+    .condition-header {
+        line-height: 24px;
+        font-weight: 400;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .docs {
+        max-height: 280px;
+        max-width: 280px;
+    }
+
+    .applogo {
+        max-width: 58px;
+        max-height: 58px;
+    }
+
+    .appiphone {
+        max-width: 300px;
+        max-height: 400px;
+    }
+
+    .hiking-run {
+        max-width: 346px ;
+        max-height: 300px ;
+    }
+
+    .total-description p {
+        line-height: 28px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .services-title {
+        font-size: 28px;
+        line-height: 38px;
+      }
+
+      .case-header h2 {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+      }
+
+      .case-items {
+        gap: 15px;
+      }
+
+      .presentation-header h1 {
+        text-align: center;
+        line-height: 28px;
+        font-size: 24px;
+        font-weight: 400;
+      }
+
+      .presentation {
+        margin-top: 60px;
+      }
+
+      .case {
+
+        margin-top: 60px;
+      }
+
+      .presentation-body {
+        margin-top: 24px;
+      }
+
+      .details-body-header h1 {
+        font-size: 36px;
+        line-height: 38px;
+        font-weight: 400;
+      }
+
+      .details-body-content-input {
+        background-image: none ;
+      }
+
+      .search-girl {
+        max-width: 425px;
+        max-height: 324px;
+      }
+
+      .details-body-content {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      .details-body-content-input {
+        padding: 0;
+      }
+      
+      .details-body {
+        gap: 30px;
+        padding: 20px;
+      }
+
+      .details-body-header p {
+        line-height: 22px;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        max-width: 320px;
+      }
+
+      .details {
+        margin-top: 60px;
+      }
+
+      .footer-body-links {
+        gap: 50px;
+    }
+
+    .footer-body-adress-button {
+      padding: 18px 45px;
+    }
+
+    .footer-body-info {
+      justify-content: space-between;
+    }
+    .footer-body-info {
+      flex-direction: column;
+    }
+
+    .footer-body {
+      padding: 40px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .condition-header {
+        line-height: 24px;
+        font-weight: 400;
+        font-size: 24px;
+        text-align: center;
+      }
+
+      .doctors-description p {
+        line-height: 18px;
+        font-size: 14px;
+        font-weight: 400;
+      }
+
+      .doctors-description h2 {
+        line-height: 32px;
+        font-size: 24px;
+        font-weight: 400;
+      }
+
+      .icon-description h2 {
+        line-height: 35px;
+        font-size: 22px;
+        font-weight: 400;
+      }
+
+      .applogo {
+        max-width: 36px;
+        max-height: 36px;
+    }
+
+    .icon-description {
+        gap: 10px;
+    }
+
+    .condition-app p {
+        line-height: 18px;
+        font-size: 14px;
+        font-weight: 400;
+      }
+
+      .condition-body {
+        gap: 25px;
+      }
+
+      .appiphone {
+        max-width: 200px;
+        max-height: 300px;
+    }
+
+    .docs {
+        max-height: 250px;
+        max-width: 250px;
+      }
+
+      .hiking-run {
+        max-width: 246px ;
+        max-height: 200px ;
+    }
+
+    .total-description h2 {
+        line-height: 48px;
+        font-size: 24px;
+        font-weight: 400;
+      }
+
+      .total-description p {
+        line-height: 18px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .total-description {
+        gap: 5px;
+    }
+
+    .services-title {
+        font-size: 24px;
+        line-height: 28px;
+      }
+
+      .services-opportunities-item-content-scroll {
+        font-size: 14px;
+      }
+
+      .services-opportunities-item-content-download {
+        padding: 15px 24px;
+      }
+
+      .case-header h2 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+      }
+
+      .case-items {
+        margin-top: 10px;
+      }
+
+      .presentation-header h1 {
+        text-align: center;
+        line-height: 28px;
+        font-size: 24px;
+        font-weight: 400;
+      }
+
+      .details-body-header h1 {
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 400;
+      }
+
+      .details-body-header p {
+        line-height: 18px;
+        font-size: 14px;
+        max-width: 200px;
+      }
+
+      .details-body-content-input-item input {
+        max-width: 200px;
+
+      }
+
+      .details-body-content-input #region {
+        padding-right: 36px;
+      }
+
+      .details-body-content-input-items { 
+        justify-content: center;
+        align-items: center;
+      }
+
+      .clear {
+        padding: 15px 25px;
+       
+      }
+
+      .submit {
+        padding: 15px 25px;
+      }
+
+      .details {
+        margin-top: 60px;
+      }
+
+      .footer-body {
+        padding: 30px;
+      }
+
+}
+
+@media screen and (max-width: 375px) {
+    .profile {
+        display: none;
+    }
+
+    .condition-header {
+        line-height: 26px;
+        font-weight: 400;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .docs {
+        max-height: 250px;
+        max-width: 250px;
+    }
+
+
+    .services-opportunities-stack {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .clear {
+        padding: 10px 20px;
+       
+      }
+
+      .submit {
+        padding: 10px 20px;
+      }
+
+      .search-girl {
+        max-width: 300px;
+        max-height: 200px;
+      }
+
+      .footer-body-links {
+        flex-direction: column;
+        justify-content: center;
+        gap: 0;
+      }
+
+      .footer-body {
+        padding: 20px;
+      }
+
+      .footer-body-info {
+        flex-direction: column;
+      
+        justify-content: flex-start;
+        gap: 1em;
+      }
+
+      .footer-body-info-adress {
+        gap: 1em;
+      }
+
+      .footer-body-info-contact {
+        gap: 1em;
+      }
+
+      .footer-body-links li, .paramount-secondary {
+        font-size: 14px;
+      }
+
+      .footer-body-info-adress-index span {
+        font-size: 14px;
+      }
+
+      .footer-body-info-adress-index span {
+        font-size: 14px;
+      }
+      .footer-body-info-contact-mail span{
+        font-size: 14px;
+      }
+      .footer-body-info-adress-schedule span {
+        font-size: 14px;
+      }
+
+      .footer-body-info-contact-phone {
+        font-size: 14px;
+      }
+
+      .footer-body-info-contact-email {
+        font-size: 14px;
+      }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .services-title {
+        font-size: 18px;
+        line-height: 28px;
+      }
+
+      .services-opportunities-item-content-download {
+        padding: 10px 12px;
+      }
+
+      .Artboard {
+        max-width: 180px;
+    }
+
+    .insurance-program-body {
+
+      padding: 30px 10px 30px 10px;
+  }
+
+
+
+}
+
+@media screen and (max-width: 280px) {
+
+  .presentation-body-download-button {
+    
+    padding: 20px 60px 20px 60px;
+}
+
+}
